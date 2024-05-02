@@ -35,7 +35,7 @@ const TaskForm = ({ onAddTask }) => {
           onChange={(e) => setTaskDescription(e.target.value)}
         />
       </Grid>
-      <Grid item xs={12}>
+      <Grid item xs={12} container justifyContent="flex-end">
         <Button
           variant="contained"
           color="primary"

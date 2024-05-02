@@ -105,9 +105,9 @@ const TaskTrackerApp = () => {
             Task Tracker
           </Typography>
           <Stack direction="row" alignItems="center" spacing={2}>
-            <IconButton onClick={handleThemeChange} sx={{ color: 'inherit' }}>
+            {/* <IconButton onClick={handleThemeChange} sx={{ color: 'inherit' }}>
               {darkMode ? <LightModeIcon /> : <DarkModeIcon />}
-            </IconButton>
+            </IconButton> */}
           </Stack>
         </Toolbar>
         <Tabs
